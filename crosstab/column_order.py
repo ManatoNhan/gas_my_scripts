@@ -13,12 +13,12 @@ creds, _ = default()
 gc = gspread.authorize(creds)
 
 # 必要なパラメータ
-spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1e3SdHODewRGvyELYLSDGjJpcbSYiVyyiUSoiWAzzA3Q/edit?gid=1602405071#gid=1602405071'  # スプレッドシートのURL
-sheet_name = 'アンケートraw'  # 使用するシート名
-column_group1_start = 'E'  # 最初の列グループの開始列
-column_group1_end = 'E'    # 最初の列グループの終了列
-column_group2_start = 'H'  # 二番目の列グループの開始列
-column_group2_end = 'Q'    # 二番目の列グループの終了列
+spreadsheet_url = ''  # スプレッドシートのURL
+sheet_name = ''  # 使用するシート名
+column_group1_start = ''  # 最初の列グループの開始列
+column_group1_end = ''    # 最初の列グループの終了列
+column_group2_start = ''  # 二番目の列グループの開始列
+column_group2_end = ''    # 二番目の列グループの終了列
 
 # 列名をインデックスに変換する関数
 def col2num(col):
